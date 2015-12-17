@@ -46,6 +46,8 @@ public class MainActivity extends ActionBarActivity {
 
         mChart.setDrawHoleEnabled(true);
         mChart.setHoleColorTransparent(true);
+        mChart.setMinimumHeight(450);
+        mChart.setMinimumWidth(450);
         mChart.setHoleRadius(7);
         mChart.setTransparentCircleRadius(10);
 
